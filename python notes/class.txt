@@ -1,0 +1,18 @@
+class in python
+
+A class is a user-defined blueprint or prototype from which objects are created. 
+Classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made. 
+Each class instance can have attributes attached to it for maintaining its state.
+
+		Syntax: class ClassName:
+    				# Statement
+
+Some points on Python class:  Classes are created by keyword class.
+					Attributes are the variables that belong to a class.
+					Attributes are always public and can be accessed using the dot (.) operator. Eg.: Myclass.Myattribute
+
+Defining a class : class Dog:
+    				pass
+
+Class and Instance Variables
+Instance variables are for data, unique to each instance and class variables are for attributes and methods shared by all instances of the class. 

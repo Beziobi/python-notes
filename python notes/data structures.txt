@@ -1,0 +1,35 @@
+data structures
+The basic Python data structures in Python include list, set, tuples, and dictionary. 
+Each of the data structures is unique in its own way. 
+Data structures are “containers” that organize and group data according to type.
+The data structures differ based on mutability and order. Mutability refers to the ability to change an object after its creation. 
+Mutable objects can be modified, added, or deleted after they’ve been created, while immutable objects cannot be modified after their creation. 
+Order, in this context, relates to whether the position of an element can be used to access the element.
+
+Lists
+A list is defined as an ordered collection of items,  
+The term “ordered collections” means that each item in a list comes with an order that uniquely identifies them. 
+
+		example: List_A = [item 1, item 2, item 3….., item n]
+Lists can be nested: A list can be nested, which means that it can contain any type of object. 
+			   It can include another list or a sublist
+				example:List_A = [item 1, list_B, item 3….., item n]
+Lists are mutable:Lists created in Python qualify to be mutable because they can be altered even after being created.
+			 A user can search, add, shift, move, and delete elements from a list at their own will. 
+				example: List_A = [item 1, item 2, item 3….., item n] to  List_A = [item 1]
+Tuples
+A tuple is a built-in data structure in Python that is an ordered collection of objects.
+ Unlike lists, tuples come with limited functionality.The primary differing characteristic between lists and tuples is mutability.
+ Lists are mutable, whereas tuples are immutable. The use of parentheses in creating tuples is optional, 
+but they are recommended to distinguish between the start and end of the tuple.
+			example: tuple_A = (item 1, item 2, item 3,…, item n)
+ A tuple with a single item can be expressed as follows:
+some_tuple = (item 1, )
+If the tuple is empty, the user should include an empty pair of parentheses as follows:
+		Empty_tuple= ( )
+
+Sets
+A set is defined as a unique collection of unique elements that do not follow a specific order. 
+Unlike tuples, sets are mutable – they can be modified, added, replaced, or removed.
+ A sample set can be represented as follows:
+		set_a = {“item 1”, “item 2”, “item 3”,….., “item n”}

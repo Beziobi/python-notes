@@ -1,0 +1,36 @@
+conditional statements
+A conditional statement as the name suggests itself, is used to handle conditions in your program. 
+These statements guide the program while making decisions based on the conditions encountered by the program.
+
+Python has 3 key Conditional Statements that you should know:
+
+			if statement
+			if-else statement
+			if-elif-else ladder
+if Statement:
+The if statement is a conditional statement in python, 
+that is used to determine whether a block of code will be executed or not.
+	
+syntax: if condition:
+       	 # execute code block
+if-else Statement:
+ The if statement executes the code block when the condition is true. 
+Similarly, the else statement works in conjuncture with the if statement to execute a code block when the defined if condition is false.
+
+Syntax:	if condition:
+      	  # execute code if condition is true
+	else:
+       	 # execute code if condition if False
+if-elif-else ladder:
+The elif statement is used to check for multiple conditions and execute the code block within if any of the conditions evaluate to be true.
+The elif statement is similar to the else statement in the context that it is optional but unlike the else statement, 
+there can be multiple elif statements in a code block following an if statement.
+
+syntax: 	if condition1:
+    			# execute this statement
+		elif condition2:
+   			 # execute this statement
+		else:
+   			 # if non of the above conditions
+   			 # evaluate to True
+   			 # execute this statement

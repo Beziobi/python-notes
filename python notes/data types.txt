@@ -1,0 +1,36 @@
+Data Types
+
+Since everything is an object in Python programming, 
+data types are actually classes and variables are instance (object) of these classes.
+
+Following are the standard or built-in data type of Python:
+
+Numeric:- represent the data which has numeric value. Numeric value can be integer, floating number or even complex numbers. 
+These values are defined as int, float and complex class in Python.
+
+Sequence Type:-In Python, sequence is the ordered collection of similar or different data types. 
+Sequences allows to store multiple values in an organized and efficient fashion. 
+There are several sequence types in Python –
+						
+					String
+					List
+					Tuple
+
+Boolean:-Data type with one of the two built-in values, True or False. 
+Boolean objects that are equal to True are truthy (true), and those equal to False are falsy (false). 
+But non-Boolean objects can be evaluated in Boolean context as well and determined to be true or false. It is denoted by the class bool.
+
+         Note – True and False with capital ‘T’ and ‘F’ are valid booleans otherwise python will throw an error.
+
+
+Set:- Set is an unordered collection of data type that is iterable, mutable and has no duplicate elements. 
+The order of elements in a set is undefined though it may consist of various elements.
+					Example:-set1 = set() 
+						   print("Initial blank Set: ") 
+						   print(set1)
+
+Dictionary:-Dictionary in Python is an unordered collection of data values, used to store data values like a map, which unlike other Data Types that hold only single value as an element,
+ Dictionary holds key:value pair. Key-value is provided in the dictionary to make it more optimized. Each key-value pair in a Dictionary is separated by a colon :, whereas each key is separated by a ‘comma’.
+					Example:-Dict = {} 
+						   print("Empty Dictionary: ") 
+						   print(Dict) 

@@ -1,0 +1,15 @@
+Decorators
+
+Decorators are a very powerful and useful tool in Python since it allows programmers to modify the behaviour of a function or class. 
+Decorators allow us to wrap another function in order to extend the behaviour of the wrapped function, without permanently modifying it.
+
+					Syntax for Decorator: @gfg_decorator
+								    def hello_decorator():
+   								    print("Gfg")
+
+							'''Above code is equivalent to -
+
+								def hello_decorator():
+   								 print("Gfg")
+    							hello_decorator = gfg_decorator(hello_decorator)'''
+

@@ -1,0 +1,27 @@
+Loops in Python
+ Python provides three ways for executing the loops. While all the ways provide similar basic functionality, 
+they differ in their syntax and condition checking time.
+
+While Loop in Python
+
+In python, a while loop is used to execute a block of statements repeatedly until a given condition is satisfied.
+ And when the condition becomes false, the line immediately after the loop in the program is executed.
+	
+	Syntax :	while expression:
+  			  statement(s)
+
+For Loop in Python
+For loops are used for sequential traversal. For example: traversing a list or string or array etc. 
+In Python, there is no C style for loop, i.e., for (i=0; i<n; i++). 
+There is “for in” loop which is similar to for each loop in other languages. 
+
+	syntax:for iterator_var in sequence:
+   			 statements(s)
+
+Nested Loops
+Python programming language allows to use one loop inside another loop.
+
+	Syntax: for iterator_var in sequence:
+   			for iterator_var in sequence:
+       		statements(s)
+       		statements(s)
